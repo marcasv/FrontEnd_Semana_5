@@ -1,21 +1,21 @@
 <template>
   <div class="home">
-    <MenuUser/>
-    <Pasteles/>
+    <MenuAdmin/>
+    <Inventario/>
     <Footer/>
   </div>
 </template>
 
 <script>
-import MenuUser from "../components/MenuUser.vue";
-import Pasteles from "../components/Pasteles.vue";
+import MenuAdmin from "../components/MenuAdmin.vue";
+import Inventario from "../components/Inventario.vue";
 import Footer from "../components/Footer.vue";
 export default {
   name: 'HomeView',
   
   components:{
-    MenuUser,
-    Pasteles,
+    MenuAdmin,
+    Inventario,
     Footer
   }
 }
